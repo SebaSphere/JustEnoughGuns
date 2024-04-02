@@ -1,0 +1,41 @@
+{
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-04-02 03:38:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:potato/root": {
+    "criteria": {
+      "joined_world": "2024-04-02 03:31:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-04-02 03:31:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-04-02 03:38:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-04-02 03:38:37 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-04-02 03:38:47 -0400",
+      "minecraft:taiga": "2024-04-02 03:39:44 -0400",
+      "minecraft:plains": "2024-04-02 03:31:11 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3824
+}

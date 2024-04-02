@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "justenoughguns",
+  "version": "${version}",
+  "name": "JustEnoughGuns",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/me/JustEnoughGuns"
+  },
+  "license": "MIT",
+  "icon": "assets/JustEnoughGuns/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.sebastianb.justenoughguns.client.JustEnoughGunsClient"
+    ],
+    "main": [
+      "dev.sebastianb.justenoughguns.JustEnoughGuns"
+    ]
+  },
+  "mixins": [
+    "JustEnoughGuns.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.9",
+    "fabric": "*",
+    "minecraft": "1.20.5-alpha.24.12.potato"
+  }
+}

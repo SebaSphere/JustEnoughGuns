@@ -1,0 +1,28 @@
+{
+  "minecraft:potato/root": {
+    "criteria": {
+      "joined_world": "2024-04-02 02:51:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-04-02 02:51:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-04-02 02:52:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-04-02 02:51:58 -0400",
+      "minecraft:plains": "2024-04-02 02:51:22 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3824
+}
