@@ -11,6 +11,8 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.passive.MerchantEntity;
 import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.item.Items;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
@@ -47,6 +49,8 @@ public abstract class VillagerEntityMixin extends MerchantEntity {
     public void shootTater(LivingEntity attacker) {
         if (attacker != null && attacker.isAlive()) {
             World world = getEntityWorld();
+
+            world.playSound(null, getX(), getY(), getZ(), SoundEvents.ENTITY_IRON_GOLEM_DAMAGE, SoundCategory.PLAYERS, 1.0F, 1.0F / (world.getRandom().nextFloat() * 0.4F + 1.2F) * 0.5F);
 
             // Calculate yaw angle
             double dX = attacker.getX() - this.getX();

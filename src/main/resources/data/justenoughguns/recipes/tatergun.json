@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "iP "
+  ],
+  "key": {
+    "_": {
+      "item": "minecraft:polished_deepslate_slab"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "item": "justenoughguns:tatergun",
+    "count": 1
+  }
+}
