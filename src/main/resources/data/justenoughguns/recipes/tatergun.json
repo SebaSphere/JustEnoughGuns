@@ -1,14 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "___",
-    "iP "
+    "III",
+    "UP "
   ],
   "key": {
-    "_": {
+    "I": {
       "item": "minecraft:polished_deepslate_slab"
     },
-    "i": {
+    "U": {
       "item": "minecraft:iron_ingot"
     },
     "P": {
@@ -16,7 +17,7 @@
     }
   },
   "result": {
-    "item": "justenoughguns:tatergun",
+    "id": "justenoughguns:tatergun",
     "count": 1
   }
 }
